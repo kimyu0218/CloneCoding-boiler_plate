@@ -32,4 +32,4 @@ const userSchema = mongoose.Schema({ /* 스키마 생성 */
 })
 
 const User = mongoose.model('User', userSchema) /* 모델명, 스키마 */
-model.exports = { User } /* 다른 파일에서 사용하기 위함 */
+module.exports = { User } /* 다른 파일에서 사용하기 위함 */
